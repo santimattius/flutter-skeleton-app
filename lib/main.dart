@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
+import 'injection_container.dart' as sl;
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await sl.init();
+  runApp(const ScaffoldApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class ScaffoldApp extends StatelessWidget {
+  const ScaffoldApp({Key? key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
