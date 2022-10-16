@@ -6,12 +6,14 @@ import '../application/sign_in/sign_in_form_bloc.dart';
 import 'wigets/sign_in_form.dart';
 
 class SignInPage extends StatelessWidget {
+  const SignInPage({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: BlocProvider<SignInFormBloc>(
         create: (context) => serviceLocator<SignInFormBloc>(),
-        child: SignInForm(),
+        child: const SignInForm(),
       ),
     );
   }
