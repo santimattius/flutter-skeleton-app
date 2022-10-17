@@ -3,9 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_skeleton_app/features/authentication/application/authentication_bloc.dart';
 
 class HomePage extends StatelessWidget {
-  final String title;
-
-  const HomePage({Key? key, required this.title}) : super(key: key);
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +19,7 @@ class HomePage extends StatelessWidget {
         ],
         child: Scaffold(
           appBar: AppBar(
-            title: Text(title),
+            title: const Text('Home'),
             leading: IconButton(
               icon: const Icon(Icons.exit_to_app),
               onPressed: () {

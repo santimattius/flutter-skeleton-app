@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_skeleton_app/features/authentication/application/authentication_bloc.dart';
 import 'package:flutter_skeleton_app/features/authentication/presentation/sign_in_page.dart';
-import 'package:flutter_skeleton_app/features/authentication/presentation/wigets/sign_in_form.dart';
 import 'package:flutter_skeleton_app/features/splash/presentation/splash_page.dart';
 
 import 'features/home/presentation/home_page.dart';
@@ -39,7 +38,7 @@ class ScaffoldApp extends StatelessWidget {
         routes: {
           '/': (context) => const SplashPage(),
           '/sign_in': (context) => const SignInPage(),
-          '/home': (context) => const HomePage(title: "Welcome"),
+          '/home': (context) => const HomePage(),
         },
       ),
     );
