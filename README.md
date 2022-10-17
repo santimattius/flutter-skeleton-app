@@ -43,17 +43,6 @@ dependencies:
   flutter:
     sdk: flutter
   dartz: ^0.10.0
-  freezed_annotation: ^2.0.3
-  cloud_firestore: ^3.1.15
-  flutter_bloc: ^8.0.1
-  flutter_hooks: ^0.18.0
-  firebase_core: ^1.4.0
-  firebase_auth: ^3.0.1
-  google_sign_in: ^5.0.7
-  get_it: ^dependencies:
-  flutter:
-    sdk: flutter
-  dartz: ^0.10.0
   flutter_bloc: ^8.0.1
   # Firebase
   firebase_core: ^1.4.0
@@ -68,6 +57,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
 ```
 ## References
 
