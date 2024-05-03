@@ -9,22 +9,9 @@ The following describes the architecture of the app, the structure of the projec
   <img src="https://github.com/santimattius/flutter-skeleton-app/blob/feature_login/doc/skeleton_home.png" width="300"/>
 </p>
 
-## Getting Started
+## Setup Firebase using Firebase CLI
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Setup Firebase
-
-[Check this documentation](https://firebase.google.com/)
+[Check this documentation](https://firebase.flutter.dev/docs/cli/)
 
 # Architecture 
 ## Bounded context
@@ -59,6 +46,19 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 ```
+## Flutter documentation
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
 ## References
 
 - [Domain Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html)
