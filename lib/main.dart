@@ -6,12 +6,13 @@ import 'package:flutter_skeleton_app/features/authentication/presentation/sign_i
 import 'package:flutter_skeleton_app/features/splash/presentation/splash_page.dart';
 
 import 'features/home/presentation/home_page.dart';
+import 'firebase_options.dart';
 import 'injection_container.dart' as sl;
 import 'injection_container.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await sl.init();
   runApp(const ScaffoldApp());
 }

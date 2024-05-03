@@ -25,7 +25,7 @@ class HeaderBox extends StatelessWidget {
         gradient: LinearGradient(
           colors: [
             Theme.of(context).colorScheme.primary,
-            Theme.of(context).colorScheme.primaryVariant,
+            Theme.of(context).colorScheme.onPrimary,
           ],
         ),
       );
